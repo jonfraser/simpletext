@@ -12,7 +12,7 @@ A simple to use text only blog using CloudFlare Workers and KV. I wanted to see 
 
 # Adding blog entries
 Simply add KV Pairs into your KV. A few notes:
-- At the moment the Key is convention-based and needs to be in the format yyyy-MM-dd~blog-title (ie 2024-10-26~My-First-Entry)
+- At the moment the Key is convention-based and needs to be in the format yyyy-MM-dd\~blog-title (ie 2024-10-26\~My-First-Entry)
 - The date gets extracted and split from the title by the tilde.
 - The title is formatted by replacing the dashes with spaces
 - Not following this format will break everything (probably)
