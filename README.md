@@ -3,9 +3,9 @@ A simple to use text only blog using CloudFlare Workers and KV. I wanted to see 
 
 # Setup
 1. Create a CloudFlare account (free plan works fine until your blog gets super popular)
-2. Create a KV
-3. Create a worker and leave the default text for the moment
-4. Add a Binding to your KV from your Worker (via the Settings in the Worker) named "PAGES"
+2. Create a worker and leave the default text for the moment
+4. Create a KV
+3. Add a Binding to your KV from your Worker (via the Settings in the Worker) named "PAGES"
 5. Paste the worker.js content from this project into your Worker (overwrite it all)
 6. Update the top variables baseUrl, blogTitle, blogDescription
 7. Save and deploy your worker
